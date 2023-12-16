@@ -1,0 +1,42 @@
+/*
+JavaScript Number Reference
+JavaScript Numbers
+JavaScript has only one type of number.
+
+Numbers can be written with, or without, decimals:
+
+Example
+let x = 3.14;     // A number with decimals
+let y = 34;       // A number without decimals
+Extra large or extra small numbers can be written with scientific (exponent) notation:
+
+Example
+let x = 123e5;    // 12300000
+let y = 123e-5;   // 0.00123
+For a tutorial about JavaScript numbers, read our JavaScript Number Tutorial.
+
+JavaScript Number Methods and Properties
+Name	Description
+constructor	Returns the function that created JavaScript's Number prototype
+EPSILON	Returns the difference between 1 and the smallest number greater than 1
+isFinite()	Checks whether a value is a finite number
+isInteger()	Checks whether a value is an integer
+isNaN()	Checks whether a value is Number.NaN
+isSafeInteger()	Checks whether a value is a safe integer
+MAX_SAFE_INTEGER	Returns the maximum safe integer in JavaScript.
+MIN_SAFE_INTEGER	Returns the minimum safe integer in JavaScript
+MAX_VALUE	Returns the largest number possible in JavaScript
+MIN_VALUE	Returns the smallest number possible in JavaScript
+NaN	Represents a "Not-a-Number" value
+NEGATIVE_INFINITY	Represents negative infinity (returned on overflow)
+POSITIVE_INFINITY	Represents infinity (returned on overflow)
+parseFloat()	Parses a string an returns a number
+parseInt()	Parses a string an returns a whole number
+prototype	Allows you to add properties and methods to an object
+toExponential(x)	Converts a number into an exponential notation
+toFixed(x)	Formats a number with x numbers of digits after the decimal point
+toLocaleString()	Converts a number into a string, based on the locale settings
+toPrecision(x)	Formats a number to x length
+toString()	Converts a number to a string
+valueOf()	Returns the primitive value of a number
+*/
